@@ -11,6 +11,7 @@ main>section {
     padding: .625rem /* 10/16 */;
     background: #fff;
     overflow: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch; /*ios 上增加弹性*/
     display: none;
 }
@@ -114,6 +115,7 @@ main>section:first-child {
     color: #fff;
     border-radius: 2px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 

@@ -335,8 +335,6 @@ var app = {
             $(this).addClass('active').siblings().removeClass('active');
 
             if(parseInt(index) == 0){
-                var url = location.pathname + '#' + $(this).attr('data-name');
-                console.log(url);
                 Top250.init();
             }else if(parseInt(index) === 1){
                 Beimei.init();
