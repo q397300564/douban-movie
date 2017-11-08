@@ -298,7 +298,7 @@ var Search = {
             var $node = $(html);
             $node.find('a').attr('href', element.alt);
             $node.find('h2').text(element.title);
-            $node.find('img').attr('src', element.images.medium);
+            $node.find('img').attr('src', element.images.small);
             $node.find('.score').text(element.rating.average);
             $node.find('.count').text(element.collect_count);
             $node.find('.year').text(element.year);
