@@ -45,7 +45,7 @@ var Top250 = {
         this.isload = true;
         this.loadings.fadeIn();
         $.ajax({
-            url: 'http://api.douban.com/v2/movie/top250',   // 跨域到 http:// 
+            url: 'https://api.douban.com/v2/movie/top250',   // 跨域到 http:// 
             type: 'get',                                    // 数据类型
             dataType: 'jsonp',　　　　　　　　　　　　　　　　　　// 指定为　jsonp 类型
             data: {　　　　　　　　　　　　　　　　　　　　　　　　 // 数据参数
@@ -148,7 +148,7 @@ var Beimei = {
         var _this = this;
         this.loadings.fadeIn();
         $.ajax({
-            url: 'http://api.douban.com/v2/movie/us_box',   // 跨域到 http:// 
+            url: 'https://api.douban.com/v2/movie/us_box',   // 跨域到 http:// 
             type: 'get',                                    // 数据类型
             dataType: 'jsonp',　　　　　　　　　　　　　　　　　　// 指定为　jsonp 类型
             jsonp: 'callback',                              // 服务端获取回调函数的 key
@@ -245,7 +245,7 @@ var Search = {
         var _this = this;
         this.loadings.fadeIn();
         $.ajax({
-            url: 'http://api.douban.com//v2/movie/search',   // 跨域到 http:// 
+            url: 'https://api.douban.com//v2/movie/search',   // 跨域到 http:// 
             type: 'get',                                    // 数据类型
             dataType: 'jsonp',　　　　　　　　　　　　　　　　　　// 指定为　jsonp 类型
             jsonp: 'callback',                              // 服务端获取回调函数的 key
