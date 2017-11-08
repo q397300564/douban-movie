@@ -235,10 +235,11 @@ var Search = {
     Event: function(){
         var _this = this;
         this.$btn.click(function(){
-            _this.$input.empty();
             _this.$ct.empty();
             _this.searchVal = _this.$input.val();
             _this.getData();
+            _this.$input.val('');
+            return false;
         });
     },
     getData: function(){
