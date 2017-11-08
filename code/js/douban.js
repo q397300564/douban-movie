@@ -235,10 +235,15 @@ var Search = {
     Event: function(){
         var _this = this;
         this.$btn.click(function(){
+            // 清空 ct 里面的数据
             _this.$ct.empty();
+            // 获取 input 里面的 值
             _this.searchVal = _this.$input.val();
-            _this.getData();
+            // 清除input 的值
             _this.$input.val('');
+            // 获取数据
+            _this.getData();
+           
             return false;
         });
     },
