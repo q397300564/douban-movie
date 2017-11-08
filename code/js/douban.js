@@ -251,7 +251,7 @@ var Search = {
         var _this = this;
         this.loadings.fadeIn();
         $.ajax({
-            url: 'https://api.douban.com//v2/movie/search',   // 跨域到 http:// 
+            url: 'https://api.douban.com/v2/movie/search',   // 跨域到 http:// 
             type: 'get',                                    // 数据类型
             dataType: 'jsonp',　　　　　　　　　　　　　　　　　　// 指定为　jsonp 类型
             jsonp: 'callback',                              // 服务端获取回调函数的 key
