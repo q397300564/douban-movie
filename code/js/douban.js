@@ -53,7 +53,8 @@ var Top250 = {
                 count: _this.num
             }, 
             jsonp: 'callback',                              // 服务端获取回调函数的 key
-            jsonpCallback: 'getName',                       // 回调函数名
+            jsonpCallback: 'getName',  
+            timeout: 3000,                     // 回调函数名
             success: function(res){                         //　成功执行处理，对应后台返回的　getName(data) 的方法。
                 _this.isload = false;
                 if(_this.idx >= res.total){
@@ -153,6 +154,7 @@ var Beimei = {
             dataType: 'jsonp',　　　　　　　　　　　　　　　　　　// 指定为　jsonp 类型
             jsonp: 'callback',                              // 服务端获取回调函数的 key
             jsonpCallback: 'getName',                       // 回调函数名
+            timeout: 3000, 
             success: function(res){  
                                                              //　成功执行处理，对应后台返回的　getName(data) 的方法。
                 _this.reader(res);　　　　　　　　　　　　　　　
@@ -259,8 +261,9 @@ var Search = {
             data: {
                 q: _this.searchVal,
             },
+            timeout: 3000, 
             success: function(res){  
-                                                             //　成功执行处理，对应后台返回的　getName(data) 的方法。
+                                                          //　成功执行处理，对应后台返回的　getName(data) 的方法。
                 _this.reader(res);　　　　　　　　　　　　　　　
                 
             },

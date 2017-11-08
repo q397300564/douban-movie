@@ -1,0 +1,79 @@
+
+
+@media screen and (min-width: 320px) {
+    html,body,button,input,select,textarea {
+        font-size:14px
+    }
+}
+
+@media screen and (min-width: 374px) {
+    html,body,button,input,select,textarea {
+        font-size:16px
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html,body,button,input,select,textarea {
+        font-size:17px
+    }
+}
+
+@media screen and (min-width: 413px) {
+    html,body,button,input,select,textarea {
+        font-size:18.5px
+    }
+}
+
+@media screen and (min-width: 426px) {
+    html,body,button,input,select,textarea {
+        font-size:19px
+    }
+}
+
+@media screen and (min-width: 450px) {
+    html,body,button,input,select,textarea {
+        font-size:20px
+    }
+}
+
+@media screen and (min-width: 480px) {
+    html,body,button,input,select,textarea {
+        font-size:20px
+    }
+}
+
+@media screen and (min-width: 540px) {
+    html,body,button,input,select,textarea {
+        font-size:22.25px
+    }
+}
+
+@media screen and (min-width: 590px) {
+    html,body,button,input,select,textarea {
+        font-size:24.13px
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html,body,button,input,select,textarea {
+        font-size:24.5px
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html,body,button,input,select,textarea {
+        font-size:26px
+    }
+}
+
+@media screen and (min-width: 720px) {
+    html,body,button,input,select,textarea {
+        font-size:30px
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html,body,button,input,select,textarea {
+        font-size:32px
+    }
+}

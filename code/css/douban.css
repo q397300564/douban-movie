@@ -55,7 +55,7 @@ main>section:first-child {
     font-size: .75rem /* 12/16 */;
     color: #ccc;
 
-    width: 16.25rem /* 260/16 */;
+    width: 13.75rem /* 220/16 */;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
