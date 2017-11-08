@@ -166,7 +166,10 @@ var Beimei = {
             },
             complete: function(){                            // 请求完成后执行
                 _this.isload = false;　
-                _this.loadings.hide();
+                _this.loadings.text('----- 我是有底线的 -----');
+                _this.loadings.css({
+                    color: '#eee'
+                });
             }
         });
         

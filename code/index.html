@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>豆瓣电影</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/douban.css">
-    <link rel="stylesheet" href="font/iconfont.css">
     <link rel="stylesheet" href="css/shipei.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/douban.css">
+    
+    
 </head>
 <body>
     <main>
@@ -47,9 +49,21 @@
         </section>
     </main>
     <footer>
-        <div class="active" data-name="top250"><span class="iconfont icon-paiming"></span><span>250Top</span></div>
-        <div data-name="beimei"><span class="iconfont icon-us"></span><span>北美</span></div>
-        <div data-name="search"><span class="iconfont icon-search"></span><span>搜索</span></div>
+        <div class="active" data-name="top250">
+            <div class="wrap-tab">
+                <span class="iconfont icon-paiming"></span><span>250Top</span>
+            </div>
+        </div>
+        <div data-name="beimei">
+            <div class="wrap-tab">
+                <span class="iconfont icon-us"></span><span>北美</span>
+            </div>
+        </div>
+        <div data-name="search">
+            <div class="wrap-tab">
+                <span class="iconfont icon-search"></span><span>搜索</span>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
